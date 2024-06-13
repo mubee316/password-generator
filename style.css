@@ -1,0 +1,33 @@
+body{
+    background-color: hsl(0, 0%, 90%);
+    display: flex;
+    justify-content: center;
+}
+
+#container{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+border: 2px solid;
+max-width: 350px;
+height: 350px;
+background-color: white;
+border: navajowhite;
+box-shadow: 5px 15px 15px hsl(240, 100%, 70%);
+}
+/* input tag */
+#Passcode{
+    padding: 1em;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px hsl(240, 100%, 70%);
+    border: navajowhite;
+}
+button{
+    padding: 1em;
+    background-color: hsl(240, 100%, 70%);
+    cursor: pointer;
+    box-shadow: 5px 5px 10px;
+    border-radius: 10px;
+    border: none;
+}
