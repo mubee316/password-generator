@@ -1,17 +1,18 @@
+document.addEventListener('DOMContentLoaded', (event) => {
+    const button = document.getElementById("submit");
+    button.addEventListener("click", generate);
+
 function generate(){
-    const passcode = document.getElementById("passcode")
+    const passcodeasscode = document.getElementById("Passcode")
     const button = document.getElementById("submit");
 
  button.innerText = "Generating..."
  setTimeout(function(){
     const password = generatePassword(12, true, true, true, true)
-    passcode.value = password;
+    Passcode.value = password;
     button.innerText = "Genereted"
     console.log(`generated password: ${password}`);
  }, 3000);
-
-   
-
 }
 
 function generatePassword(length, includeLowerCase, includeUpperCase, includeNumber, includeSymbols) {
@@ -57,4 +58,4 @@ function generatePassword(length, includeLowerCase, includeUpperCase, includeNum
 //     }
 
   
-
+})
